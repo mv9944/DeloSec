@@ -1,0 +1,42 @@
+#TYPE Selected.System.Management.Automation.PSCustomObject
+"PSComputerName","RunspaceId","PSShowComputerName","Description","Enabled","Identity","InError","ErrorType","Name","Priority","RuleIdentity","SupportedByTask","Legacy","BodyContainsWords","ExceptIfBodyContainsWords","FlaggedForAction","ExceptIfFlaggedForAction","FromAddressContainsWords","ExceptIfFromAddressContainsWords","From","ExceptIfFrom","HasAttachment","ExceptIfHasAttachment","HasClassification","ExceptIfHasClassification","HeaderContainsWords","ExceptIfHeaderContainsWords","FromSubscription","ExceptIfFromSubscription","MessageTypeMatches","ExceptIfMessageTypeMatches","MyNameInCcBox","ExceptIfMyNameInCcBox","MyNameInToBox","ExceptIfMyNameInToBox","MyNameInToOrCcBox","ExceptIfMyNameInToOrCcBox","MyNameNotInToBox","ExceptIfMyNameNotInToBox","ReceivedAfterDate","ExceptIfReceivedAfterDate","ReceivedBeforeDate","ExceptIfReceivedBeforeDate","RecipientAddressContainsWords","ExceptIfRecipientAddressContainsWords","SentOnlyToMe","ExceptIfSentOnlyToMe","SentTo","ExceptIfSentTo","SubjectContainsWords","ExceptIfSubjectContainsWords","SubjectOrBodyContainsWords","ExceptIfSubjectOrBodyContainsWords","WithImportance","ExceptIfWithImportance","WithinSizeRangeMaximum","ExceptIfWithinSizeRangeMaximum","WithinSizeRangeMinimum","ExceptIfWithinSizeRangeMinimum","WithSensitivity","ExceptIfWithSensitivity","ApplyCategory","ApplySystemCategory","CopyToFolder","DeleteMessage","DeleteSystemCategory","ForwardAsAttachmentTo","ForwardTo","MarkAsRead","MarkImportance","MoveToFolder","PinMessage","RedirectTo","SendTextMessageNotificationTo","StopProcessingRules","MailboxOwnerId","IsValid","ObjectState"
+"outlook.office365.com","e076e24a-51ad-4ecb-b42f-17fc7829bcee","False","If the message:
+	the message includes specific words in the subject 'scam,sorry,??' or 'Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	delete the message
+	and forward the message to 'nmega@deloitte.co.il'
+	and stop processing more rules on this message
+","True","EyalBiton\6687549682312282113","False","None","Move messages sent to","1","6687549682312282113","True",,"","",,,"","",,,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"scam,sorry,?? Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"True","",,"""nmega@deloitte.co.il"" [SMTP:nmega@deloitte.co.il]","False",,,"False",,"","True","EyalBiton","True","Unchanged"
+"outlook.office365.com","e076e24a-51ad-4ecb-b42f-17fc7829bcee","False","If the message:
+	the message was received from 'nmega@deloitte.co.il'
+	and the message was sent to 'yaniv maimon' or 'Eyal Biton' or 'eyal biton'
+	and the message includes specific words in the subject 'Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	move the message to folder 'Archive'
+	and stop processing more rules on this message
+","True","EyalBiton\6615492088274354177","False","None","role1","2","6615492088274354177","True",,"","",,,"","","""nmega@deloitte.co.il"" [SMTP:nmega@deloitte.co.il]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""yaniv maimon"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0de4d8d8bf9a4a208871638cac603137-ymaimon] ""Eyal Biton"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=17eaa322c39b4f0780a379027961c365-mailbox1] ""eyal biton"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d0988aa2923c493786888e8d184e7e3c-ebiton]",,"Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"False","",,,"False",,"Archive","False",,"","True","EyalBiton","True","Unchanged"
+"outlook.office365.com","e076e24a-51ad-4ecb-b42f-17fc7829bcee","False","If the message:
+	the message includes specific words in the subject 'scam,click me' or 'Mailbox Audit Log Search 'Search20181104{a7421301-d983-4b22-ab53-9fa1d9697e0e}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	move the message to folder 'הערות'
+","True","ebiton\6764932211163529217","False","None","העבר הודעות הכוללות מילים ספציפיות","1","6764932211163529217","True",,"","",,,"","",,,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"scam,click me Mailbox Audit Log Search 'Search20181104{a7421301-d983-4b22-ab53-9fa1d9697e0e}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"False","",,,"False",,"הערות","False",,"","False","ebiton","True","Unchanged"
+"outlook.office365.com","4fd8e9fd-110a-4350-8d86-19ee04e08fc4","False","If the message:
+	the message includes specific words in the subject 'scam,sorry,מא' or 'Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	delete the message
+	and forward the message to 'nmega@deloitte.co.il'
+	and stop processing more rules on this message
+","True","EyalBiton\6687549682312282113","False","None","Move messages sent to","1","6687549682312282113","True",,"","",,,"","",,,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"scam,sorry,מא Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"True","",,"""nmega@deloitte.co.il"" [SMTP:nmega@deloitte.co.il]","False",,,"False",,"","True","EyalBiton","True","Unchanged"
+"outlook.office365.com","4fd8e9fd-110a-4350-8d86-19ee04e08fc4","False","If the message:
+	the message was received from 'nmega@deloitte.co.il'
+	and the message was sent to 'yaniv maimon' or 'Eyal Biton' or 'eyal biton'
+	and the message includes specific words in the subject 'Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	move the message to folder 'Archive'
+	and stop processing more rules on this message
+","True","EyalBiton\6615492088274354177","False","None","role1","2","6615492088274354177","True",,"","",,,"","","""nmega@deloitte.co.il"" [SMTP:nmega@deloitte.co.il]",,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""yaniv maimon"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0de4d8d8bf9a4a208871638cac603137-ymaimon] ""Eyal Biton"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=17eaa322c39b4f0780a379027961c365-mailbox1] ""eyal biton"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d0988aa2923c493786888e8d184e7e3c-ebiton]",,"Mailbox Audit Log Search 'Search20181104{d0b698d1-142e-4a11-999f-3b302d8dfd2d}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"False","",,,"False",,"Archive","False",,"","True","EyalBiton","True","Unchanged"
+"outlook.office365.com","4fd8e9fd-110a-4350-8d86-19ee04e08fc4","False","If the message:
+	the message includes specific words in the subject 'scam,click me' or 'Mailbox Audit Log Search 'Search20181104{a7421301-d983-4b22-ab53-9fa1d9697e0e}' Requested by Eyal Biton Completed Successfully'
+Take the following actions:
+	move the message to folder 'הערות'
+","True","ebiton\6764932211163529217","False","None","העבר הודעות הכוללות מילים ספציפיות","1","6764932211163529217","True",,"","",,,"","",,,"False","False",,,"","",,,,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"scam,click me Mailbox Audit Log Search 'Search20181104{a7421301-d983-4b22-ab53-9fa1d9697e0e}' Requested by Eyal Biton Completed Successfully","","","",,,,,,,,,"","",,"False","",,,"False",,"הערות","False",,"","False","ebiton","True","Unchanged"
