@@ -1,0 +1,1 @@
+﻿& C:\Users\nmega\PycharmProjects\untitled\Assets\GeoLogonalyzer.exe --csv C:\Users\nmega\PycharmProjects\untitled\realTimeResults\GeoLogonFirstResults.csv --output C:\Users\nmega\PycharmProjects\untitled\realTimeResults\GeoLogonOutput.csv
